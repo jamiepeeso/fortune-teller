@@ -25,17 +25,14 @@ public class ProjectOne {
 				|| favRainbow.equalsIgnoreCase("yellow") || favRainbow.equalsIgnoreCase("blue")
 				|| favRainbow.equalsIgnoreCase("green") || favRainbow.equalsIgnoreCase("indego")
 				|| favRainbow.equalsIgnoreCase("violet")) {
-			String favRainbowHelp = input.nextLine();
 		}
 
 		else {
 			System.out.println("ROYBGIV... What is this sourcery?! To find out type 'Help'.");
 			favRainbow.equalsIgnoreCase("HeLp");
-			String helpPlease = input.nextLine();
 
 			System.out.println(
 					"ROYBGIV is a mnemonic for Red, Orange, Yellow, Blue, Green, Indigo, and Violet. Now... CHOSE!!!");
-			String favRainbowHelp = input.nextLine();
 		}
 		// there is a double click needed when you dont ask for help... help.
 
@@ -76,22 +73,22 @@ public class ProjectOne {
 			location = ("Kabul, Afghanistan");
 		}
 
-		String car = null;
+		String car = "";
 
 		if (favRainbow.equalsIgnoreCase("red")) {
-			car = ("a beatup Pento");
+			car = "a beatup Pento";
 		} else if (favRainbow.equalsIgnoreCase("orange")) {
-			car = ("wax wings");
+			car = "wax wings";
 		} else if (favRainbow.equalsIgnoreCase("yellow")) {
-			car = ("the Bat Mobile");
+			car = "the Bat Mobile";
 		} else if (favRainbow.equalsIgnoreCase("blue")) {
-			car = ("sharknado");
+			car = "sharknado";
 		} else if (favRainbow.equalsIgnoreCase("green")) {
-			car = ("a Delorean time maching; fully loaded with teh latest Mr. Fusion");
+			car = "a Delorean time maching; fully loaded with teh latest Mr. Fusion";
 		} else if (favRainbow.equalsIgnoreCase("indego")) {
-			car = ("the Millennium Falcon");
+			car = "the Millennium Falcon";
 		} else if (favRainbow.equalsIgnoreCase("violet")) {
-			car = ("Jeep Wrangler");
+			car = "Jeep Wrangler";
 		}
 
 		String money;
